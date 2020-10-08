@@ -1,0 +1,91 @@
+.centerContainer {
+  margin: 30px auto;
+  display: flex;
+  align-self: center;
+  width: 60%;
+  color: #999999;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+span:hover {
+  color: #980000;
+}
+
+.left50 {
+  width: 50%;
+}
+
+.right50 {
+  width: 50%;
+}
+
+.noteHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 0.8em;
+}
+
+.noteSubHeader {
+  display: flex;
+  margin-bottom: 0.8em;
+}
+
+.noteDate {
+  width: 100%;
+}
+
+.noteId {
+}
+
+.noteTitle {
+  font-weight: 400;
+  font-size: 1.4em;
+  color: black;
+}
+
+.noteBody {
+  display: flex;
+  width: 100%;
+}
+
+.noteText {
+  text-align: right;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+.toLeft {
+  text-align: left;
+}
+
+.toRight {
+  text-align: right;
+}
+
+.toCenter {
+  text-align: center;
+}
+
+.noteFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0.5em;
+}
+
+.noteFav {
+  font-weight: 400;
+}
+
+.noteHideShow {
+  font-weight: 400;
+}
+
+.noteFoldUnfold {
+  color: #bf9000;
+}
+
+.noteFoldUnfold:hover {
+  color: #7f6000;
+}
